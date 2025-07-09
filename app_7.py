@@ -79,8 +79,8 @@ def main():
             graph_type = st.radio('Tipo de gráfico:', ('Barras', 'Pizza'))
         
             # IDADES
-            max_age = int(bank.age.max())
-            min_age = int(bank.age.min())
+            max_age = int(bank.idade.max())
+            min_age = int(bank.idade.min())
             idades = st.slider(label='Idade', 
                                         min_value = min_age,
                                         max_value = max_age, 
